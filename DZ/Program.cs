@@ -1,8 +1,10 @@
-﻿string One = Console.ReadLine();
-string Two = Console.ReadLine();
-
+﻿Console.WriteLine("Putt first number");
+string One = Console.ReadLine();
 int numOne = Convert.ToInt32(One);
+Console.WriteLine("Putt second number");
+string Two = Console.ReadLine();
 int numTwo = Convert.ToInt32(Two);
+
 
 if ((numOne * numOne) == numTwo)
 {
