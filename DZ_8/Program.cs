@@ -130,8 +130,8 @@ void CaseProgramm2()
 //Задача 58: Задайте две матрицы. Напишите программу, которая будет находить произведение двух матриц.
 void CaseProgramm3()
 {
-    int arrayRows = 2;
-    int arrayColumns = 2;
+    int arrayRows = 4;
+    int arrayColumns = 4;
     int arrayMaxValue = 10;
     int arrayMinValue = 1;
 
@@ -149,7 +149,7 @@ void CaseProgramm3()
         for (int j = 0; j < arrayColumns; j++)
         {
             resultArray[i, j] = matrixA[i, j] * matrixB[i, j];
-            Console.Write(resultArray[i, j] + "\t|");
+            Console.Write(resultArray[i, j]);
         }
         Console.WriteLine("<-- row " + (i + 1));
     }
@@ -257,6 +257,7 @@ void CaseProgramm5()
         Console.WriteLine();
     }
 
+WaitingToAnyKey();
 }
 
 
